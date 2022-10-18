@@ -1,0 +1,18 @@
+import java.awt.*;
+
+public class frameexamole
+   {
+
+	public static void main(String[] args) 
+	{
+Frame f=new Frame("Frame Example");
+Label l=new Label ("please click here for next page",Label.LEFT);
+Button b=new Button("Click Here");
+b.setBounds(200,500,50, 50);
+f.add(b);
+f.add(l);
+f.setSize(1000,1000);
+f.setVisible(false);
+	}
+
+}
